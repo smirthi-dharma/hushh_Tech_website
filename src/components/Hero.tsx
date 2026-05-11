@@ -406,20 +406,28 @@ export default function Hero() {
         </Box>
 
         <Box px={4} mb={8}>
-          <Flex gap={3} wrap="wrap">
-            <Box flex="1" minW="45%">
+          <Flex
+  gap={3}
+  wrap="wrap"
+  direction={{ base: "column", sm: "row" }}
+  w="100%"
+  align="stretch"
+>            <Box flex="1" minW={{ base: "100%", sm: "45%" }}>
               <FeatureCard icon="analytics" iconBg="rgba(0,122,255,0.1)" iconColor={IOS.blue}
                 title="Data Driven" desc="Real-time market analytics." />
             </Box>
-            <Box flex="1" minW="45%">
+
+            <Box flex="1" minW={{ base: "100%", sm: "45%" }}>
               <FeatureCard icon="percent" iconBg="rgba(52,199,89,0.12)" iconColor="#34C759"
                 title="Low Fees" desc="Maximize your total returns." />
             </Box>
-            <Box flex="1" minW="45%">
+
+            <Box flex="1" minW={{ base: "100%", sm: "45%" }}>
               <FeatureCard icon="verified_user" iconBg="rgba(255,149,0,0.12)" iconColor="#FF9500"
                 title="Expert Vetted" desc="Curated top opportunities." />
             </Box>
-            <Box flex="1" minW="45%">
+
+            <Box flex="1" minW={{ base: "100%", sm: "45%" }}>
               <FeatureCard icon="smart_toy" iconBg="rgba(175,82,222,0.12)" iconColor="#AF52DE"
                 title="Automated" desc="Hands-free smart investing." />
             </Box>
