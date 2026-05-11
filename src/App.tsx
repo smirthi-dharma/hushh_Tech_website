@@ -1,3 +1,4 @@
+import { KaiAgentChatScaffold } from "@/components/kai/KaiAgentChatScaffold";
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
