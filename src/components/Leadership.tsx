@@ -195,7 +195,15 @@ export default function Leadership() {
                 mb={6}
                 border="3px solid #0891B2"
               >
-                <Image src={img} alt="Manish Sainani" boxSize="full" objectFit="cover" display="block" />
+                <Image
+  src={img}
+  alt="Manish Sainani"
+  w="100%"
+  h="100%"
+  aspectRatio={1}
+  objectFit="cover"
+  display="block"
+/>
               </Box>
               
               <Heading as="h3" fontSize="2xl" mb={2}>
@@ -231,7 +239,15 @@ export default function Leadership() {
                 mb={6}
                 border="3px solid #0891B2"
               >
-                <Image src={img2} alt="Justin Donaldson" boxSize="full" objectFit="cover" display="block" />
+                <Image
+  src={img2}
+  alt="Justin Donaldson"
+  w="100%"
+  h="100%"
+  aspectRatio={1}
+  objectFit="cover"
+  display="block"
+/>
               </Box>
               
               <Heading as="h3" fontSize="2xl" mb={2}>
