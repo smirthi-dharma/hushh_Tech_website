@@ -281,11 +281,14 @@ export default function Leadership() {
                 </Box>
                 <Box className="flex-1">
                   <Heading 
-                    as="h3" 
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="500"
-                    className=" text-[#1D1D1F] mb-6"
-                  >
+  as="h3" 
+  fontSize={{ base: "xl", md: "3xl" }}
+  fontWeight="500"
+  lineHeight="1.2"
+  overflowWrap="anywhere"
+  wordBreak="normal"
+  className=" text-[#1D1D1F] mb-6"
+>
                     Focus on Free Cash Flow
                   </Heading>
                   <Text className="text-xl text-[#6E6E73] leading-relaxed font-light">
@@ -303,12 +306,15 @@ export default function Leadership() {
                   🏢
                 </Box>
                 <Box className="flex-1">
-                  <Heading 
-                    as="h3" 
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="500"
-                    className=" text-[#1D1D1F] mb-6"
-                  >
+                 <Heading 
+  as="h3" 
+  fontSize={{ base: "xl", md: "3xl" }}
+  fontWeight="500"
+  lineHeight="1.2"
+  overflowWrap="anywhere"
+  wordBreak="normal"
+  className=" text-[#1D1D1F] mb-6"
+>
                     Long-Term Ownership
                   </Heading>
                   <Text className="text-xl text-[#6E6E73] leading-relaxed font-light">
@@ -327,11 +333,14 @@ export default function Leadership() {
                 </Box>
                 <Box className="flex-1">
                   <Heading 
-                    as="h3" 
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="500"
-                    className=" text-[#1D1D1F] mb-6"
-                  >
+  as="h3" 
+  fontSize={{ base: "xl", md: "3xl" }}
+  fontWeight="500"
+  lineHeight="1.2"
+  overflowWrap="anywhere"
+  wordBreak="normal"
+  className=" text-[#1D1D1F] mb-6"
+>
                     AI-Driven Alpha & Systematic Risk Management
                   </Heading>
                   <Text className="text-xl text-[#6E6E73] leading-relaxed font-light">
@@ -350,11 +359,14 @@ export default function Leadership() {
                 </Box>
                 <Box className="flex-1">
                   <Heading 
-                    as="h3" 
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="500"
-                    className=" text-[#1D1D1F] mb-6"
-                  >
+  as="h3" 
+  fontSize={{ base: "xl", md: "3xl" }}
+  fontWeight="500"
+  lineHeight="1.2"
+  overflowWrap="anywhere"
+  wordBreak="normal"
+  className=" text-[#1D1D1F] mb-6"
+>
                     Human Expertise x AI Synergy
                   </Heading>
                   <Text className="text-xl text-[#6E6E73] leading-relaxed font-light">
@@ -373,11 +385,14 @@ export default function Leadership() {
                 </Box>
                 <Box className="flex-1">
                   <Heading 
-                    as="h3" 
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="500"
-                    className=" text-[#1D1D1F] mb-6"
-                  >
+  as="h3" 
+  fontSize={{ base: "xl", md: "3xl" }}
+  fontWeight="500"
+  lineHeight="1.2"
+  overflowWrap="anywhere"
+  wordBreak="normal"
+  className=" text-[#1D1D1F] mb-6"
+>
                     Modern Infrastructure, Enhanced Value
                   </Heading>
                   <Text className="text-xl text-[#6E6E73] leading-relaxed font-light">
