@@ -178,21 +178,24 @@ export default function Footer() {
         {/* Social Media */}
         <div className="flex gap-4 mb-8">
           <a 
-            href="https://www.hushh.ai" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="w-10 h-10 rounded-full bg-[#1F2937] flex items-center justify-center hover:bg-[#135bec] transition-colors group"
-          >
+  href="https://www.hushh.ai" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  aria-label="Visit Hushh website"
+  className="w-10 h-10 rounded-full bg-[#1F2937] flex items-center justify-center hover:bg-[#135bec] transition-colors group"
+>
             <FaGlobe className="text-gray-400 group-hover:text-white text-base" />
           </a>
           <a 
-            href="mailto:support@hushh.ai" 
+            href="mailto:support@hushh.ai"
+            aria-label="Email Hushh support" 
             className="w-10 h-10 rounded-full bg-[#1F2937] flex items-center justify-center hover:bg-[#135bec] transition-colors group"
           >
             <FaAt className="text-gray-400 group-hover:text-white text-base" />
           </a>
           <a 
             href="/community" 
+            aria-label="Visit Hushh community"
             className="w-10 h-10 rounded-full bg-[#1F2937] flex items-center justify-center hover:bg-[#135bec] transition-colors group"
           >
             <FaRss className="text-gray-400 group-hover:text-white text-base" />
