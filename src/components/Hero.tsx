@@ -104,7 +104,15 @@ const StrategyItem = ({ icon, iconBg, title, subtitle, isLast = false }: {
   icon: string; iconBg: string; title: string; subtitle: string; isLast?: boolean;
 }) => (
   <Flex
-    align="center" px={4} py={3}
+  align="center"
+  px={4}
+  py={3}
+  tabIndex={0}
+  role="button"
+  _focusVisible={{
+    outline: "2px solid #007AFF",
+    outlineOffset: "-2px",
+  }}
     borderBottom={isLast ? "none" : "0.5px solid"}
     borderColor="rgba(198,198,200,0.4)"
     cursor="pointer"
@@ -426,6 +434,7 @@ export default function Hero() {
           </Flex>
         </Box>
 
+
         {/* ═══ Section 3: Fund A ═══ */}
         <Box px={5} mb={2} mt={4}>
           <Text fontSize="22px" lineHeight="28px" fontWeight="700"
@@ -465,9 +474,20 @@ export default function Hero() {
                 <Text fontSize="12px" color="rgba(60,60,67,0.6)">Inception Year</Text>
                 <Text fontSize="17px" fontWeight="600" color={IOS.text}>2024</Text>
               </Box>
-              <Flex align="center" gap={1} cursor="pointer" color={IOS.blue}
-                onClick={() => navigate("/discover-fund-a")}
-              >
+              <Flex
+  align="center"
+  gap={1}
+  cursor="pointer"
+  color={IOS.blue}
+  tabIndex={0}
+  role="button"
+  _focusVisible={{
+    outline: "2px solid #007AFF",
+    outlineOffset: "2px",
+    borderRadius: "8px",
+  }}
+  onClick={() => navigate("/discover-fund-a")}
+>
                 <Text fontSize="15px" fontWeight="500">Performance Details</Text>
                 <ChevronRight />
               </Flex>
@@ -529,7 +549,17 @@ export default function Hero() {
       >
         <Flex justify="space-between" align="center" maxW={{ base: "393px", md: "768px", lg: "1024px" }} mx="auto">
           <TabItem icon="home" label="Home" active />
-          <Box onClick={() => navigate("/hushh-user-profile")} cursor="pointer">
+          <Box
+  onClick={() => navigate("/hushh-user-profile")}
+  cursor="pointer"
+  tabIndex={0}
+  role="button"
+  _focusVisible={{
+    outline: "2px solid #007AFF",
+    outlineOffset: "2px",
+    borderRadius: "10px",
+  }}
+>
             <TabItem icon="pie_chart" label="Portfolio" />
           </Box>
           <Box onClick={() => navigate("/discover-fund-a")} cursor="pointer">
