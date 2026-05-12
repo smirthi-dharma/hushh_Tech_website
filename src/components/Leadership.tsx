@@ -394,8 +394,12 @@ export default function Leadership() {
             // mx="auto"
           >
             <Box 
-              as="button"
-              background={'linear-gradient(to right, #00A9E0, #6DD3EF)'}
+  as="button"
+  background={'linear-gradient(to right, #00A9E0, #6DD3EF)'}
+  _focusVisible={{
+    outline: "2px solid white",
+    outlineOffset: "2px",
+  }}
               color="white"
               
               borderRadius="full"
@@ -409,8 +413,12 @@ export default function Leadership() {
             </Box>
             
             <Box 
-              as="button"
-              bg="transparent"
+  as="button"
+  bg="transparent"
+  _focusVisible={{
+    outline: "2px solid #0891B2",
+    outlineOffset: "2px",
+  }}
               color="#0891B2"
               py={2}
               onClick={() => window.location.href = "/signUp"}
