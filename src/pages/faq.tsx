@@ -243,7 +243,8 @@ const FaqPage: React.FC = () => {
                   color="gray.600"
                   fontSize={{ base: "0.9375rem", md: "1rem" }}
                   fontWeight="400"
-                  lineHeight="tall"
+                  lineHeight={{ base: "1.65", md: "tall" }}
+overflowWrap="anywhere"
                 >
                   {faq.answer}
                 </Box>
