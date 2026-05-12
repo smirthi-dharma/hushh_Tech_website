@@ -32,7 +32,16 @@ const KYCVerificationPage = () => {
         >
           <VStack spacing={8} align="stretch">
             {/* Section 1: Identity Verification */}
-            <Stack direction="row" align="center">
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
@@ -71,7 +80,16 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 2: Financial Background Verification */}
-            <Stack direction="row" align="center">
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
@@ -116,7 +134,16 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 3: Investment Experience Documentation */}
-            <Stack direction="row" align="center">
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
@@ -155,8 +182,17 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 4: Enhanced Due Diligence */}
-            <Stack direction="row" align="center">
-              <Box
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
+            <Box
                 w={10}
                 h={10}
                 align="center"
@@ -194,8 +230,17 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 5: Corporate Entity Verification */}
-            <Stack direction="row" align="center">
-              <Box
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
+            <Box
                 w={10}
                 h={10}
                 align="center"
@@ -239,7 +284,16 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 6: Ongoing Monitoring */}
-            <Stack direction="row" align="center">
+           <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
@@ -278,7 +332,16 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 7: Prohibited Activities & Red Flags */}
-            <Stack direction="row" align="center">
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
@@ -323,7 +386,16 @@ const KYCVerificationPage = () => {
             </VStack>
 
             {/* Section 8: Documentation Timeline & Process */}
-            <Stack direction="row" align="center">
+            <Stack
+  direction="row"
+  align="center"
+  tabIndex={0}
+  borderRadius="md"
+  _focusVisible={{
+    outline: "2px solid #0AADBC",
+    outlineOffset: "2px",
+  }}
+>
               <Box
                 w={10}
                 h={10}
