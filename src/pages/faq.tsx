@@ -205,16 +205,16 @@ const FaqPage: React.FC = () => {
                     }}
                   >
                     <Box
-  as="span"
-  display="block"
-  flex="1"
-  pr={1}
-  minW={0}
-  overflowWrap="anywhere"
-  wordBreak="normal"
-  transition="color 0.2s ease"
-  _groupHover={{ color: "black" }}
->
+                      as="span"
+                      display="block"
+                      flex="1"
+                      pr={1}
+                      minW={0}
+                      overflowWrap="anywhere"
+                      wordBreak="normal"
+                      transition="color 0.2s ease"
+                      _groupHover={{ color: "black" }}
+                    >
                       {faq.question}
                     </Box>
                     <Icon
